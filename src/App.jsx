@@ -5,11 +5,11 @@ import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
       <SearchBar />
       <MovieCard />
-    </>
+    </div>
   );
 }
 
