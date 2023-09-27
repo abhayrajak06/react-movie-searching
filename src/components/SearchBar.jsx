@@ -2,7 +2,7 @@ import React from "react";
 
 const SearchBar = ({ searchMovie, setSearchMovie, fetchMovieData }) => {
   return (
-    <div className="main flex justify-center py-5 px-4">
+    <div className="main flex justify-center py-5 px-4 sticky top-0">
       <input
         type="text"
         value={searchMovie}
