@@ -24,6 +24,7 @@ function App() {
       setLoading(false);
     }
   };
+  console.log(searchMovie);
 
   return (
     <div>

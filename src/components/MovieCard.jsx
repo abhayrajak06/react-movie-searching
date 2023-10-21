@@ -13,7 +13,7 @@ const MovieCard = ({ allMovieData, loading }) => {
         </div>
       ) : (
         <div className="main flex flex-wrap lg:px-10 px-4">
-          {allMovieData.map((item, index) => {
+          {allMovieData?.map((item, index) => {
             const { Title, Year, Poster } = item;
             return (
               <div key={index} className="child p-2 lg:w-1/4 md:w-1/2 w-full">
