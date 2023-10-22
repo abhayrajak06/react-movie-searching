@@ -6,13 +6,13 @@ const SearchBar = ({ searchMovie, setSearchMovie, fetchMovieData }) => {
   }, [searchMovie.length]);
 
   return (
-    <div className="main flex justify-center py-5 px-4 sticky top-0">
+    <div className="main flex justify-center py-5 px-4 sticky" id="input">
       <input
         type="text"
         value={searchMovie}
         onChange={(e) => setSearchMovie(e.target.value)}
         placeholder="Search (min 3 letters)"
-        className="rounded w-80 bg-gray-200 text-black p-2 outline-none border-2 border-gray-500 placeholder-gray-480"
+        className="rounded-lg w-80 bg-gray-200 text-black p-2 outline-none border-2 border-gray-500 placeholder-gray-480"
       />
     </div>
   );

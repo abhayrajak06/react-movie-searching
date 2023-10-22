@@ -17,14 +17,12 @@ function App() {
       );
       const data = await res.json();
       setAllMovieData(data.Search);
-      console.log(allMovieData);
       setLoading(false);
     } catch (error) {
       console.log(error);
       setLoading(false);
     }
   };
-  console.log(searchMovie);
 
   return (
     <div>

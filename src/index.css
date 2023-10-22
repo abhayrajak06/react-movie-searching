@@ -8,3 +8,22 @@
     background-repeat: no-repeat;
     min-height: 100vh;
 }
+
+@media only screen and (max-width: 850px) {
+    #input{
+        position: sticky;
+        top: 30px;
+    }
+}
+@media only screen and (max-width: 770px) {
+    #input{
+        position: sticky;
+        top: 60px;
+    }
+}
+@media only screen and (min-width: 850px) {
+    #input{
+        position: sticky;
+        top: 0px;
+    }
+}
